@@ -10,7 +10,8 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>Zainkeepscode@gmail.com</span>
+        <span>Sonupandeybaldeo2003@gmail.com</span>
+        <span>Created By Mr. Sonu Pandey | © All Right Reseved!</span>
         <div className="f-icons">
           <Insta color="white" size={"3rem"} />
           <Facebook color="white" size={"3rem"} />

@@ -30,7 +30,7 @@ const Works = () => {
             ispum is simpley dummy text of printingLorem ispum is simpley dummy
             text
             <br />
-            y dummy text of printingLorem
+            dummy text of printingLorem
             <br />
             ispum is simpley dummy text of printing
           </spane>

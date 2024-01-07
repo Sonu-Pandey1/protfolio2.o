@@ -22,6 +22,7 @@
 /* slider */
 .portfolio .swiper{
     overflow: visible!important;
+    
 }
 
 .portfolio-slider {
@@ -36,5 +37,7 @@
   width: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
+  height: 11rem;
+
 }
 

@@ -27,11 +27,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hy I Am</span>
+          <span>Sonu Pandey</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Hello! I'm Sonu Pandey, a dedicated front-end developer with expertise in HTML, CSS, JavaScript, React, and Redux.js. I thrive on transforming concepts into user-friendly digital solutions. With a collaborative mindset and a passion for continuous learning, I'm eager to contribute to innovative projects and drive impactful web experiences. Let's connect and explore how we can make the web better together!
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +38,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/Sonu-Pandey1" target="_blank" rel="noreferrer"><img src={Github} alt="img" /></a>
+          <a href="https://www.linkedin.com/in/sonu-pandey-9b375122a/" target="_blank" rel="noreferrer"><img src={LinkedIn} alt="img" /></a>
+          <a href="https://www.instagram.com/sonu_pandey_77/" target="_blank" rel="noreferrer"><img src={Instagram} alt="img" /></a>
         </div>
       </div>
       {/* right image side */}
