@@ -37,7 +37,15 @@
 }
 .span3{
   padding-right: 350px;
+ 
 
+}
+.span3 img,svg{
+  height: 2.5rem;
+
+}
+.span3 svg{
+  margin-left: -3.9rem;
 }
 .s-button {
   width: 8rem;
@@ -80,5 +88,19 @@
   }
   .cards > * {
     position: static;
+  }
+
+  .span3 img {
+    height: 3rem;
+  }
+  
+  .span3{
+    padding-right: 0px;
+    text-align: center;
+   
+  
+  }
+  .span3 svg{
+    margin-left: 0rem;
   }
 }

@@ -4,6 +4,9 @@
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  /* background-color: red; */
+  margin-top: 15rem;
+  margin-bottom: 13rem;
 
 }
 /* heading */
@@ -41,3 +44,18 @@
 
 }
 
+
+@media screen and (max-width: 480px) {
+  .SwiperSlide p{
+    display: none;
+  
+  }
+
+  .portfolio {
+   
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  
+  }
+ 
+}

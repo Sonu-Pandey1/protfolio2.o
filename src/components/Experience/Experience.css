@@ -4,10 +4,11 @@
   justify-content: center;
   gap: 5rem;
   height: 30vh;
-  /* margin-top: 8rem; */
+  padding-top: 0rem;
   margin-bottom: 4rem;
   /* darkmode */
   color: var(--black);
+/* background-color: red; */
 }
 .achievement{
     display: flex;
@@ -48,5 +49,6 @@
 @media screen and (max-width: 480px) {
     .experience{
         transform: scale(0.7);
+        padding-top: 12rem;  
     }
 }

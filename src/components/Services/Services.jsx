@@ -27,25 +27,21 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>skills</span>
         <span className="span3">
-          HTML
+          <img src="https://cdn-icons-png.flaticon.com/128/2305/2305941.png" alt="" />
           <br />
-          CSS
+          <img src="https://cdn-icons-png.flaticon.com/128/2305/2305903.png" alt="" />
           <br />
-          SCSS
+          <img src="https://cdn-icons-png.flaticon.com/128/2305/2305963.png" alt="" />
           <br />
-          BOOTSTRAP
+          <img src="https://cdn-icons-png.flaticon.com/128/1183/1183672.png" alt="" />
           <br />
-          JAVASCRIPT
+          <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993"></path><path d="M15 12v-3"></path></svg>
           <br />
-          REACT JS
+          <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="" />
           <br />
-          NEXT JS
+          <img src="https://cdn-icons-png.flaticon.com/128/148/148953.png" alt="" /> 
           <br />
-          REACT NATIVE
-          <br />
-          MATERIAL UI
-          <br />
-          FIREBASE
+          
         </span>
         {/* <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -89,7 +85,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"
+              "Figma, Sketch, Photoshop, Adobe Illustrator etc"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
