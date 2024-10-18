@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from '../Services/Resume.pdf';
+// import Resume from '../Services/Resume.pdf';
 
 const Services = () => {
   // context
@@ -35,7 +35,9 @@ const Services = () => {
           <br />
           <img src="https://cdn-icons-png.flaticon.com/128/1183/1183672.png" alt="" />
           <br />
-          <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993"></path><path d="M15 12v-3"></path></svg>
+          <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993"></path><path d="M15 12v-3"></path></svg>
+          <br />
+          <img src="https://t3.ftcdn.net/jpg/07/53/71/36/240_F_753713636_oXy04x1dJ63TFVF5bbmU7MNnMmvKs3xK.jpg" alt="" />
           <br />
           <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="" />
           <br />
@@ -46,7 +48,7 @@ const Services = () => {
         {/* <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a> */}
-        <a href={Resume} target="_blank" rel="noreferrer" > <button className="button s-button">Download CV</button></a>
+        {/* <a href={Resume} target="_blank" rel="noreferrer" > <button className="button s-button">Download CV</button></a> */}
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}

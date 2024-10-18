@@ -10,6 +10,10 @@ import NewsMonkey from "../../img/newsmonkey.png"
 import RealEstate from "../../img/realestate.png"
 import TextUitels from "../../img/textuitels.png"
 import MindedCoder from "../../img/mindedcoder.png"
+import MindedCoder2 from "../../img/mindedcoder2.png"
+import jobportal from "../../img/jobportal.png"
+import ducat from "../../img/ducat.png"
+// import protfolio from "../../img/protfolio.png"
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -17,7 +21,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? 'white' : '' }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -27,37 +31,52 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+
+<SwiperSlide className="SwiperSlide">
+          <a href="https://jobportalks.netlify.app/" target="_blank" rel="noreferrer"><img src={jobportal} alt="" /></a>
+          <p>Minded Coder Job Portal</p>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide">
+          <a href="https://mindedcoder.netlify.app/" target="_blank" rel="noreferrer"><img src={MindedCoder2} alt="" /></a>
+          <p>Minded Coder2</p>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide">
+          <a href="https://bhutaniinfra.netlify.app" target="_blank" rel="noreferrer"><img src={Bhutani133} alt="" /></a>
+          <p>Bhutani Infra</p>
+        </SwiperSlide>
+
         <SwiperSlide className="SwiperSlide">
           <a href="https://adminpanel133.netlify.app/" target="_blank" rel="noreferrer"><img src={AdminPanel} alt="img" /></a>
-          <p>Overall, this project has been a valuable learning experience, allowing me to explore and implement advanced technologies and methodologies like HTML, SCSS, JAVASCRIPT, REACT, FIREBASE, METERIAL UI etc in web development. By successfully integrating Firebase and creating a sophisticated admin panel, I have demonstrated my proficiency in developing scalable and user-centric solutions. I am excited to apply these skills and experiences to future projects and continue exploring innovative solutions in the ever-evolving field of web development.</p>
+          <p>Admin Panel133</p>
         </SwiperSlide>
-        <SwiperSlide  className="SwiperSlide">
-        <a href="https://www.bhutani133.com/" target="_blank" rel="noreferrer"><img src={Bhutani133} alt="" /></a>
-          <p>Throughout the duration of this project, i remained committed to delivering a high-quality solution that not only meets but exceeds the client's expectations. By leveraging my expertise in web development and employing innovative strategies such as dynamic routing, i was able to create a website that stands out for its performance, functionality, and user-centric design. I am proud of the work accomplished and look forward to applying these skills and experiences to future projects,in this project i am using technologies like HTML, SCSS, BOOTSTRAP, JAVASCRIPT, REACT etc.</p>
-        </SwiperSlide>
-        <SwiperSlide  className="SwiperSlide">
-        <a href="https://codewithsonu.netlify.app/" target="_blank" rel="noreferrer"><img src={CodeWithPandey} alt="" /></a>
-          <p>In summary, this website serves as a testament to my growing proficiency in web development and my ability to leverage APIs effectively to enhance website functionality. Through this project, I have gained valuable insights into the integration of APIs, advanced web development techniques, and user experience optimization. I look forward to applying these learnings to future projects This project has been a valuable learning experience, allowing me to explore and implement advanced technologies like HTML, CSS, JAVASCRIPT, REACT, BOOTSTRAP etc. </p>
+
+        <SwiperSlide className="SwiperSlide">
+          <a href="https://codewithsonu.netlify.app/" target="_blank" rel="noreferrer"><img src={CodeWithPandey} alt="" /></a>
+          <p >Code With Sonu </p>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://moviexstream.netlify.app/" target="_blank" rel="noreferrer"><img src={Moviex} alt="" /></a>
-          
+          <a href="https://moviexstream.netlify.app/" target="_blank" rel="noreferrer"><img src={Moviex} alt="" /></a>
+          <p > Moviex Strem  </p>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://github.com/Sonu-Pandey1/News-Monkey" target="_blank" rel="noreferrer"><img src={NewsMonkey} alt="" /></a>
-          
+          <a href="https://github.com/Sonu-Pandey1/News-Monkey" target="_blank" rel="noreferrer"><img src={NewsMonkey} alt="" /></a>
+          <p >News Monkey </p>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://pandeyrealstate.netlify.app/" target="_blank" rel="noreferrer"> <img src={RealEstate} alt="" /></a>
-         
+          <a href="https://pandeyrealstate.netlify.app/" target="_blank" rel="noreferrer"> <img src={RealEstate} alt="" /></a>
+          <p >Real Estate </p>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://sonu-pandey1.github.io/vite-project/" target="_blank" rel="noreferrer"><img src={TextUitels} alt="" /></a>
-          
+          <a href="https://sonu-pandey1.github.io/vite-project/" target="_blank" rel="noreferrer"><img src={TextUitels} alt="" /></a>
+          <p > Text Uitels</p>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide">
+          <a href="https://genuine-crostata-d0da30.netlify.app/" target="_blank" rel="noreferrer"><img src={ducat} alt="ducat" /></a>
+          <p>Ducat</p>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://mindedcorder.netlify.app/" target="_blank" rel="noreferrer"> <img src={MindedCoder} alt="" /></a>
-         
+          <a href="https://mindedcorder.netlify.app/" target="_blank" rel="noreferrer"> <img src={MindedCoder} alt="" /></a>
+          <p >Minded Coder</p>
         </SwiperSlide>
       </Swiper>
     </div>
