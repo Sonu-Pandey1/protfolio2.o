@@ -61,14 +61,18 @@ const Contact = () => {
           <input type="email" name="from_name" className="user" placeholder="Email" required />
           <textarea name="message" className="user" placeholder="Message"  />
           <input type="submit" value="Send" className="button" />
+          <p>Contact me on ---: sonupandeybaldeo2003@gmail.com</p>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
           ></div>
         </form>
+        
       </div>
+      
     </div>
+    
   );
 };
 

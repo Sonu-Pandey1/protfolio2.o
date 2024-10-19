@@ -39,9 +39,13 @@
   height: 2rem;
 }
 .i-icons {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   display: flex;
   gap: 0rem;
+}
+.i-icons p{
+  color: red;
+  font-size: xx-large;
 }
 .i-icons > * {
   transform: scale(0.5);

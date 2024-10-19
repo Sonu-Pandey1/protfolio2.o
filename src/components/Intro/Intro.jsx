@@ -30,14 +30,16 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy I Am</span>
           <span>Sonu Pandey</span>
           <span>
-            Hello! I'm Sonu Pandey, a dedicated front-end developer with expertise in HTML, CSS, JavaScript, React, and Redux.js. I thrive on transforming concepts into user-friendly digital solutions. With a collaborative mindset and a passion for continuous learning, I'm eager to contribute to innovative projects and drive impactful web experiences. Let's connect and explore how we can make the web better together!
+            Hello! I'm Sonu Pandey, a dedicated full-stack developer with expertise in HTML, CSS, Bootstrap, JavaScript, React, Redux.js, NodeJs, ExpressJs, MongoDB, Firebase, git, Hostinger etc. I thrive on transforming concepts into user-friendly digital solutions. With a collaborative mindset and a passion for continuous learning, I'm eager to contribute to innovative projects and drive impactful web experiences. Let's connect and explore how we can make the web better together!
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
+      
         <div className="i-icons">
+        <p>Contact Me Here :- </p>
           <a href="https://github.com/Sonu-Pandey1" target="_blank" rel="noreferrer"><img src={Github} alt="img" /></a>
           <a href="https://www.linkedin.com/in/sonu-pandey-9b375122a/" target="_blank" rel="noreferrer"><img src={LinkedIn} alt="img" /></a>
           <a href="https://www.instagram.com/sonu_pandey_77/" target="_blank" rel="noreferrer"><img src={Instagram} alt="img" /></a>
