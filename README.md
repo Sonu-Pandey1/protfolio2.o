@@ -1,4 +1,4 @@
-preview ----------->>>>>> https://sonupandey-portfolioo.netlify.app/
+preview ----------->>>>>> https://sonupandeyportfolio.netlify.app/
 
 # Getting Started with Create React App
 
